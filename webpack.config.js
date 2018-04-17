@@ -1,6 +1,6 @@
 module.exports = {
     entry: "./main",
-    output: { filename: "app.js" },
+    output: { filename: "app.js" }, //genera el archivp
     module: {
         loaders: [
             {
@@ -11,5 +11,6 @@ module.exports = {
     },
     resolve: {
         extensions: [".ts", ".js"]
+        //transforma de ts a js
     }
 }
